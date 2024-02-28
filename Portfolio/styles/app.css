@@ -1,0 +1,242 @@
+html{
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+}
+body{
+   color: white;
+   background-color: rgb(23, 23, 23);
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+                                            /* NAV ELEMENTS */
+.head-section{
+    height: 50px;
+    width: 100%;
+}
+nav{
+margin-top: 3%;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+nav a{
+    font-size: 17px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav a:hover{
+    color:#FF0F38;
+}
+.intro-text{
+    width: 100%;
+    max-width: 600px;
+    height:600px;
+    margin-left: 10%;
+    display: flex;
+    margin-top: 8%;
+    color: #FF0F38;
+    font-size: 32px;
+    flex-direction: column;
+    justify-content: start;
+}
+                                                /* HOME PAGE */
+.main{
+    display: flex;
+    max-width: 1400px;
+    margin-top: 2%;
+    height: 620px;
+}
+.pic{
+    margin-left: 9%;
+}
+.sub-text{
+    color: rgb(203, 203, 203);
+    font-size: 19px;
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    line-height: 30px;
+    letter-spacing: 1.6px;
+    margin-top: 7%;
+    width: 580px;
+}
+                                                /* ABOUT PAGE */
+.about-container{
+    display: flex;
+    max-width: 1400px;
+    margin-top: 5%;
+    height: 600px;
+    justify-content: center;
+}
+.about-img{
+    height: 500px;
+    margin-left: 10%;
+}
+.about-content{
+    margin-top: 7%;
+    display: flex;
+    text-align: center;
+    width: 1000px;
+    height: 700px;
+}
+.about-container h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    color: #FF0F38;
+}
+.about-container p{
+    margin-top: 5%;
+    padding-left: 100px;
+    width: 700px;
+    font-size: 19px;
+    text-align: start;
+    line-height: 35px;
+    letter-spacing: 1.4px;
+    color: rgb(203, 203, 203);
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+                                                /* PROJECT PAGE */
+.project{
+    display: flex;
+    max-width: 1400px;
+    height: 620px;
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+}
+.project-content{
+    text-align: center;
+    width: 800px;
+}
+.project-content h1{
+    margin-top: 6%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: #FF0F38;
+    letter-spacing: 1px;
+    padding-left: 180px;
+}
+.project-content dl{
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: start;
+    margin-left: 25%;
+}
+.project-content dl dd{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(203, 203, 203);
+    letter-spacing: 1.6px;
+}
+.project-content dl dt{
+    font-size: 25px;
+}
+                                                /* ACHIEVEMENTS PAGE  */
+.achieve-img{
+    height: 100px;
+}
+.achieve-content{
+    width: 600px
+}
+
+.achieve-content ul{
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 50px;
+    text-align: start;
+    margin-left: 25%;
+}
+.achieve-content h1{
+    margin-top: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: #FF0F38;
+    letter-spacing: 1px;
+    padding-left: 180px;
+}
+.achieve-content li{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(203, 203, 203);
+    letter-spacing: 1.6px;
+    font-size: 17px;
+}
+                                                /* SKILL PAGE */
+.skill{
+    display: flex;
+    max-width: 1400px;
+    height: 200px;
+    text-align: center;
+    margin-bottom: 15%;
+}
+.skill h1{
+    margin-top: 4%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: #FF0F38;
+    letter-spacing: 1px;
+    padding-left: 180px;
+}
+.icon-img{
+    height: 120px;
+    margin: 20px;
+}
+.images{
+    display: flex;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+                                                    /* EDUCATION PAGE */
+.edu-content{
+    display: flex;
+    max-width: 1400px;
+    height: 300px;
+    margin-top: 5%;
+    text-align: center;
+    justify-content: center;
+}
+.edu-content h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: #FF0F38;
+    letter-spacing: 1px;
+}
+.edu{
+    width: 800px;
+}
+.edu dl{
+    margin-top: 5%;
+    font-size: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-left: 5%;
+}
+.edu dl dd{
+    font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(203, 203, 203);
+    letter-spacing: 1.6px;
+}
+                                                        /* CONTACT PAGE*/
+.contact{
+    display: flex;
+    max-width: 1400px;
+    height: 200px;
+    margin-top: 7%;
+    text-align: center;
+    justify-content: center;
+}
+.contact  h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 42px;
+    color: #FF0F38;
+    letter-spacing: 1px;
+}
+.certificate-img{
+    margin-left: 15%;
+}
