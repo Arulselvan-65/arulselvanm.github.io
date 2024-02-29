@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hams</title>
+    <link rel="stylesheet" href="./Styles/hams1.css">
+</head>
+<body>
+    <div class="main">
+        <div class="main-img">
+            <img src="./images/1.jpg" height="400px" width="100%" style="border-radius: 10px;" class="image"/>
+        </div>
+        <div class="item-content">
+            <h1>Leriya Fashion</h1>
+            <h3 style="font-size: 25px;padding-top:10%; font-family: Arial, Helvetica, sans-serif;">Price: <span style="color: yellow;">20$</span></h3>
+            <div style="display: flex; justify-content: center; align-items: center;"> 
+            <p style="font-size: 20px;">Rating:</p>
+            <span><img src="./images/fill-star.png" height="20px"></span>
+            <span><img src="./images/fill-star.png" height="20px"></span>
+            <span><img src="./images/fill-star.png" height="20px"></span>
+            <span><img src="./images/star.png" height="20px"></span>
+            <span><img src="./images/star.png" height="20px"></span>
+            </div>
+
+            <div class="color-box">
+                <p style="font-size: 18px;font-family: Arial, Helvetica, sans-serif;">Colour</p>
+                <div class="color-div"></div>
+                <div style="background-color: rgb(237, 248, 35);" class="color-div"></div>
+                <div style="background-color: rgb(35, 166, 248);" class="color-div"></div>
+            </div>
+
+            <button class="btn-buy">Buy Now</button>
+        </div>
+        <div class="des">
+            <h1>About this item</h1>
+            <ul>
+                <li>Fabric:- Rayon</li>
+                <li>Package Contain:- 1 Stylish Dress For Women</li>
+                <li>Neck:- Collare Neck</li>
+                <li>Top Sleeve:- Roll Tab Sleeve
+                    Length:- Short Dress For Women</li>
+                    <li>Print:- Plain Western Dress For Ladies</li>
+                    <li> Patten:- Stylish Western Dress For Girls</li>
+                    <li>Occasion:- It's a regular, causal, fusion wear</li>
+                    <li> Size:- Select as per your body requirement, To ensure that our garments fit you well</li>
+            </ul>
+        </div>
+    </div>
+
+    <script>
+        window.onload = function() {
+    var queryString = window.location.search;
+    var urlParams = new URLSearchParams(queryString);
+    var img = urlParams.get('img');
+    var imageElement = document.querySelector('.image');
+    
+    if (imageElement && img) {
+        imageElement.src = `./images/${img}`;
+    }
+};
+
+    </script>
+</body>
+</html>
